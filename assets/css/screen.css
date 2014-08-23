@@ -116,6 +116,11 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+@font-face {
+	font-family: "Geogrotesc Ultra";
+	src: url("../fonts/Geogtq-Ul.otf");
+	}
+
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "icons", "Open Sans", sans-serif;
@@ -591,14 +596,14 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .subscribe-button {
-    -webkit-box-sizing: border-box;
+    /*-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    box-sizing: border-box;*/
     display: inline-block;
     float: right;
     height: 38px;
     padding: 0 20px;
-    border: transparent 1px solid;
+    /*border: transparent 1px solid;*/
     color: #fff;
     text-align: center;
     font-size: 12px;
@@ -664,10 +669,10 @@ margin on the iframe, cause it breaks stuff. */
 
 .page-description {
     margin: 0;
-    font-size: 2.2rem;
-    line-height: 1.5em;
+    font-size: 2.9rem;
+    line-height: 2.1em;
     font-weight: 400;
-    font-family: "Noto Serif", serif;
+    font-family: "Geogrotesc Ultra", serif;
     letter-spacing: 0;
     color: rgba(255,255,255,0.8);
 }
