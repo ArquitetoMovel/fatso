@@ -223,10 +223,13 @@ h1 {
 h2 {
     font-size: 4.4rem;
     letter-spacing: -1px;
+    font-weight: 300;
+    color:#666;
 }
 
 h3 {
     font-size: 3.9rem;
+     font-weight: 300;
 }
 
 h4 {
@@ -1338,6 +1341,11 @@ body:not(.post-template) .post-title {
         max-width: 710px;
     }
 
+    h2.post-title 
+    {
+        font-weight: bold;
+    }
+
     h1, h2, h3,
     h4, h5, h6 {
         margin: 0 0 0.4em 0;
@@ -1349,10 +1357,13 @@ body:not(.post-template) .post-title {
 
     h2 {
         font-size: 4rem;
+        font-weight: 300;
+        color:#666;
     }
 
     h3 {
         font-size: 3.5rem;
+        font-weight: 300;
     }
 
     h4 {
@@ -1442,10 +1453,13 @@ body:not(.post-template) .post-title {
 
     h2 {
         font-size: 3.6rem;
+        font-weight: 300;
+        color:#666;
     }
 
     h3 {
         font-size: 3.1rem;
+         font-weight: 300;
     }
 
     h4 {
@@ -1627,10 +1641,13 @@ body:not(.post-template) .post-title {
     h2 {
         font-size: 2.6rem;
         letter-spacing: 0;
+        font-weight: 300;
+        color:#666;
     }
 
     h3 {
         font-size: 2.4rem;
+        font-weight: 300;
     }
 
     h4 {
